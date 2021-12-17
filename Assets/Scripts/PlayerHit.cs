@@ -6,7 +6,7 @@ public class PlayerHit : MonoBehaviour {
 
 	public GameManagement gm;
 
-	void OnCollisionEnter2D(Collision2D coll) {
+	void OnTriggerEnter2D(Collider2D col) { 
 		Dead ();
 	}
 
